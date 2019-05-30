@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>云搜索</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script language="javascript" type="text/javascript" src="js/js.js"></script>
+    <!-- <link href="flowplayer/style.css" type="text/css" rel="stylesheet"> -->
+
+  </head>
+  <form name="form1" method="post" action="switch.jsp" >
+  <table width="210" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top: 250px;">
+		<tr>
+			<td><img src="images/xiaohui.png" width="120" height="120">
+			</td>
+		</tr>
+	</table>
+		<table width="301" height="56" border="1" align="center" cellpadding="1" cellspacing="1" bordercolor="#FFFFFF" bgcolor="F7F7F7">
+			<tr>
+				<td height="56">
+					<table width="395" height="33" border="0" align="center" cellpadding="0" cellspacing="0">
+						<tr>
+							<td width="237">
+							<input name="queryString" type="text" size="45%" height="20" onKeyUp="createRequest()">
+								<div style="position:absolute;" id="pop">
+									<table id="key_table" bgcolor="#FAFAFF" border="0"
+										cellspacing="0" cellpadding="0" >
+									</table>
+									<tbody id="key_table_body"></tbody>								
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="100">
+					<!--<input type="submit" name="Submit"-->
+					<!--value="搜一下">-->
+					<a href="https://www.baidu.com/">
+						<button>搜一下</button>
+					</a>
+				</td>
+
+			</tr>
+		</table>
+		<!--</td>-->
+		<!--</tr>-->
+		<!---->
+		<!--</table>-->
+		
+	
+	<table width="940" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr align="center">
+			<!--<td height="35" class="wordspace"><input type="radio" name="change" value="paper" checked="checked">论文  -->
+			<td height="35" class="wordspace">
+				<input type="radio" name="change" value="video"  checked="checked">视频
+				<input type="radio" name="change" value="image" >图片
+				&nbsp;&nbsp; <a href="operationServlet?info=createSearch">关于我们</a></td>
+		</tr>
+		<tr align="center">
+			<td height="129" valign="bottom" class="wordspace2">
+			<br> <br> <br> 
+			<font color="023795">     <br> <br>
+					地址：北京邮电大学 下一代通信系统理论与技术研究室 <br> <br>
+					 </font>
+			</td>
+		</tr>
+	</table>
+	<table width="244" height="35" border="0" align="center"
+		cellpadding="0" cellspacing="0">
+		<tr align="center">
+			<td valign="bottom" class="wordspace"><font color="023795"></font>
+			</td>
+		</tr>
+	</table>
+  </form>
+<!--</body>-->
+</html>
